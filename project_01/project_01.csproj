@@ -80,6 +80,8 @@
     <Content Include="server_controle\calc.aspx" />
     <Content Include="server_controle\checkBox.aspx" />
     <Content Include="server_controle\copyText.aspx" />
+    <Content Include="server_controle\link_button.aspx" />
+    <Content Include="server_controle\radio.aspx" />
     <Content Include="server_controle\result.aspx" />
     <Content Include="server_controle\WebForm1.aspx" />
     <Content Include="Web.config" />
@@ -113,6 +115,20 @@
     </Compile>
     <Compile Include="server_controle\copyText.aspx.designer.cs">
       <DependentUpon>copyText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="server_controle\link_button.aspx.cs">
+      <DependentUpon>link_button.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="server_controle\link_button.aspx.designer.cs">
+      <DependentUpon>link_button.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="server_controle\radio.aspx.cs">
+      <DependentUpon>radio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="server_controle\radio.aspx.designer.cs">
+      <DependentUpon>radio.aspx</DependentUpon>
     </Compile>
     <Compile Include="server_controle\result.aspx.cs">
       <DependentUpon>result.aspx</DependentUpon>

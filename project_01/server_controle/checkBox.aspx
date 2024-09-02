@@ -9,11 +9,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:CheckBox ID="chkMale" runat="server" Text="Male" ValidationGroup="Gender" />
+            <asp:CheckBox ID="chkCricket" runat="server" Text="Cricket" />
 &nbsp;&nbsp;&nbsp;
-            <asp:CheckBox ID="chkFemale" runat="server" Text="Female" ValidationGroup="Gender" />
+            <asp:CheckBox ID="chkFootball" runat="server" Text="Football" />
 &nbsp;&nbsp;&nbsp;
-            <asp:CheckBox ID="ckhOther" runat="server" OnCheckedChanged="CheckBox3_CheckedChanged" Text="Other" ValidationGroup="Gender" />
+            <asp:CheckBox ID="chkBadminton" runat="server" Text="Badminton" />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />

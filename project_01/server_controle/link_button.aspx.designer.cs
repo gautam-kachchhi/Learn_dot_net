@@ -11,7 +11,7 @@ namespace project_01.server_controle
 {
 
 
-    public partial class checkBox
+    public partial class link_button
     {
 
         /// <summary>
@@ -24,48 +24,39 @@ namespace project_01.server_controle
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// chkCricket control.
+        /// lbtnClickMe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkCricket;
+        protected global::System.Web.UI.WebControls.LinkButton lbtnClickMe;
 
         /// <summary>
-        /// chkFootball control.
+        /// imgbtnClickMe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkFootball;
+        protected global::System.Web.UI.WebControls.ImageButton imgbtnClickMe;
 
         /// <summary>
-        /// chkBadminton control.
+        /// btnClickMe control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkBadminton;
+        protected global::System.Web.UI.WebControls.Button btnClickMe;
 
         /// <summary>
-        /// Button1 control.
+        /// lblMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// lbl1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl1;
+        protected global::System.Web.UI.WebControls.Label lblMsg;
     }
 }

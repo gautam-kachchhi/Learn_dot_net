@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace project_01.server_controle
 {
-    public partial class checkBox : System.Web.UI.Page
+    public partial class radio : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,18 +16,22 @@ namespace project_01.server_controle
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (chkCricket.Checked)
+            if (rdbMale.Checked)
             {
-                lbl1.Text += "Cricket,";
+                lbl1.Text = "Male";
             }
-            if (chkFootball.Checked)
+            else if (rdbFemale.Checked)
             {
-                lbl1.Text += "Football,";
+                lbl1.Text = "Female";
             }
-            if (chkBadminton.Checked)
+            else if (rdbOther.Checked)
             {
-                lbl1.Text += "Badminton.";
+                lbl1.Text = "Other";
             }
+            else {
+                lbl1.Text = "Kindly select gender";
+            }
+
         }
     }
 }
